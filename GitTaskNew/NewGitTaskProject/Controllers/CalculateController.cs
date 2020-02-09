@@ -20,6 +20,7 @@ namespace NewGitTaskProject.Controllers
             string total;
             if (num1.HasValue && num2.HasValue)
             {
+
                 total = (num1 + num2).ToString();
             }
             else
