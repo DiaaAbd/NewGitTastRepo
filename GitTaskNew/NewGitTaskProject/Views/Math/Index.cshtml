@@ -1,0 +1,12 @@
+﻿@using (Html.BeginForm())
+{
+    <p>Num 1</p>
+    @Html.TextBox("Num1", null, new { @class = "form-control" })
+    <br />
+    <p>Num 2</p>
+    @Html.TextBox("Num2", null, new { @class = "form-control" })
+    <br />
+    <label>Sum is : </label> @ViewBag.T
+    <br />
+    <input type="submit" name="button" class="button1" value="Sum" />
+}
