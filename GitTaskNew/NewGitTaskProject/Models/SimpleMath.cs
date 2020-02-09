@@ -15,7 +15,7 @@ namespace NewGitTaskProject.Models
             string result = string.Empty;
             if (FirstNumber.HasValue && SecondNumber.HasValue)
             {
-                result = (FirstNumber * SecondNumber).ToString();
+                result = (FirstNumber / SecondNumber).ToString();
             }
 
             return result;
